@@ -2,6 +2,7 @@ header{
 	background-color: #414243;
 	display: block;
 	height: 15vh;
+	width: 100vw;
 }
 
 h3{
@@ -28,11 +29,24 @@ h1{
 	top: 9vh;
 }
 
+h6, .h4{
+	color: white;
+	position: relative;
+	right: 15px;
+	margin:	0 auto;
+	text-align: right;
+}
+
+.h4{
+	font-size: 35px;
+	font-weight: 100;
+	text-align: right;
+	top: 5px;
+}
+
 section{
 	height: 85vh;
-	padding: 5px;
-	align-items: center;
-  	justify-content: center;
+	padding-left: 4vw;
 }
 
 #section-shares{
@@ -43,11 +57,13 @@ section{
 }
 
 article{
-	display: inline-block;
-	background-color: green;
 	align-items: center;
+	background-color: green;
+	border: thin outset black;
+	box-shadow: 2px 2px 6px -1px;
+	display: inline-block;
 	justify-content: center;
-	margin: 5px;
-	height: 50%;
+	margin: 3px;
+	height: 46%;
 	width: 23%;
 }
