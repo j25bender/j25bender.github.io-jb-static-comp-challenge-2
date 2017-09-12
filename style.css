@@ -84,6 +84,10 @@ article{
 	width: 100%;
 }
 
+.views{
+	text-align: right;
+}
+
 .trail-info h3, .trail-info h4, 
 /*.trail-info*/{
 	text-align: left;
@@ -95,18 +99,48 @@ article{
 }
 
 @media (max-width: 1280px) {
+	#section-shares{
+		text-align: center;
+		margin:	0;
+		padding: 5px;
+	}
+
+	.trail{
+		height: 18vh;
+	}
+
 	section {
 		width: 960px;
 	}
 }
 
 @media (max-width: 960px) {
+	#section-shares{
+		text-align: center;
+		margin:	0;
+		padding: 5px;
+	}
+
+	.trail{
+		height: 21.5vh;
+	}
+
 	section {
 		width: 640px;
 	}
 }
 
 @media (max-width: 640px) {
+	#section-shares{
+		text-align: center;
+		margin:	0;
+		padding: 5px;
+	}
+
+	.trail{
+		height: 25vh;
+	}
+
 	section {
 		width: 320px;
 	}
