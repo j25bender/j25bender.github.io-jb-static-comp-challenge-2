@@ -1,33 +1,53 @@
-*{
-	display: inline-flex;
-}
-
 header{
-	background-color: #2B2B2B;
+	background-color: #414243;
 	display: block;
 	height: 15vh;
-	padding: 10px 10px 10px 10px;
-	width: 100vw;
 }
 
-h1, h3, h4{
-	margin: 15px;
+h3{
+	display: inline-block;
+	left: 15px;
+	margin: 0;
+	margin-right: 20px;
+	position: relative;
+	top: 10.5vh;
 }
 
 h1, h4{
 	position: absolute;
-	right: 10px;
+	right:15px;
+}
+
+h4{
+	margin: 0;
+	top: 2vh;
 }
 
 h1{
-	top: 80px;
-	color: white;
+	margin: 0;
+	top: 9vh;
 }
 
-h3, h4{
-	color: grey;
+section{
+	height: 85vh;
+	padding: 5px;
+	align-items: center;
+  	justify-content: center;
 }
 
-h3{
-	margin-top: 95px;
+#section-shares{
+	left: 20px;
+	margin-bottom: 50px;
+	position: relative;
+	top: 30px;
+}
+
+article{
+	display: inline-block;
+	background-color: green;
+	align-items: center;
+	justify-content: center;
+	margin: 5px;
+	height: 50%;
+	width: 23%;
 }
