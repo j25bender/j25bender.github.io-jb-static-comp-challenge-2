@@ -32,7 +32,8 @@ h1{
 h6, .h4{
 	color: white;
 	position: relative;
-	right: 15px;
+	top: -135px;
+	right: 10px;
 	margin:	0 auto;
 	text-align: right;
 }
@@ -41,7 +42,7 @@ h6, .h4{
 	font-size: 35px;
 	font-weight: 100;
 	text-align: right;
-	top: 5px;
+	top: -135px;
 }
 
 section{
@@ -58,12 +59,26 @@ section{
 
 article{
 	align-items: center;
-	background-color: green;
+	background-color: lightgrey;
 	border: thin outset black;
 	box-shadow: 2px 2px 6px -1px;
 	display: inline-block;
 	justify-content: center;
-	margin: 3px;
-	height: 46%;
+	margin: 4px;
+	height: 60%;
 	width: 23%;
+	margin-bottom: 8px;
+}
+
+.trail{
+	height: 18vh;
+	width: 100%;
+}
+
+.trail-info{
+	display: block;
+	position: relative;
+	height: 82vh;
+	width: 100%;
+	color: black;
 }
