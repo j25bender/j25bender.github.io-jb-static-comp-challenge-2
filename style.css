@@ -1,5 +1,6 @@
 header{
-	background-color: #414243;
+	background-image: url('images/rock.png');
+	opacity: 0.6;
 	display: block;
 	height: 15vh;
 	width: 100vw;
@@ -59,8 +60,8 @@ section{
 
 article{
 	align-items: center;
-	background-color: lightgrey;
-	border: thin outset black;
+/*	background-color: lightgrey;
+*/	border: thin outset black;
 	box-shadow: 2px 2px 6px -1px;
 	display: inline-block;
 	justify-content: center;
@@ -75,10 +76,12 @@ article{
 	width: 100%;
 }
 
+div h3, div h4, 
 .trail-info{
+	text-align: left;
 	display: block;
 	position: relative;
-	height: 82vh;
+	margin: 3px;
 	width: 100%;
 	color: black;
 }
